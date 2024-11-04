@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hacker-Style Personal Portfolio
+
+This is a single-page static personal portfolio built using [Next.js](https://nextjs.org). The project presents the contact information in a hacker-style interface, mimicking a Linux system hacking and exploit process, culminating in showing the decrypted contact details of the individual.
+
+## Features
+- Hacker-style theme with terminal-like visuals.
+- Display contact information with a simulated "exploit" animation.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+Ensure you have [Node.js](https://nodejs.org) installed on your machine.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/0xsharz/hacker-dark-portfolio.git
+   cd hacker-dark-portfolio
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Install dependencies using npm:
+   ```bash
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Running the Project Locally
+To run the project in production mode locally:
+
+1. Build the Next.js project:
+   ```bash
+   npm run build
+   ```
+
+2. Start the server in production mode:
+   ```bash
+   npm start
+   ```
+
+The site will be available at [http://localhost:3000](http://localhost:3000).
+
+## Deploying to Render.com
+
+To deploy this project on [Render.com](https://render.com):
+
+1. Create a new Web Service on Render.com.
+2. Connect your GitHub repository containing this project.
+3. Set the **Build Command** to:
+   ```bash
+   npm install && npm run build
+   ```
+4. Set the **Start Command** to:
+   ```bash
+   npm start
+   ```
+5. Specify the environment as **Node**.
+
+Render will automatically build and deploy your application. Once deployment is complete, the site will be live on the provided URL.
 
 ## Learn More
+To learn more about Next.js and its features, visit the following resources:
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - An interactive Next.js tutorial.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
+Feel free to fork the repository and make pull requests to contribute.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
+This project is licensed under the MIT License.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
