@@ -9,6 +9,7 @@ This is a single-page static personal portfolio built using [Next.js](https://ne
 Demo: https://shz.lol/
 
 ![image](https://github.com/user-attachments/assets/5b0dca7e-2224-4afd-9aa9-4b77e0603682)
+![image](https://github.com/user-attachments/assets/18acb14a-8a91-49e6-9446-75fb2faabba7)
 
 ## Getting Started
 
