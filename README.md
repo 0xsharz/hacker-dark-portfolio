@@ -6,6 +6,10 @@ This is a single-page static personal portfolio built using [Next.js](https://ne
 - Hacker-style theme with terminal-like visuals.
 - Display contact information with a simulated "exploit" animation.
 
+Demo: https://shz.lol/
+
+![image](https://github.com/user-attachments/assets/5b0dca7e-2224-4afd-9aa9-4b77e0603682)
+
 ## Getting Started
 
 ### Prerequisites
